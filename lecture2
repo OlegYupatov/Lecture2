@@ -11,3 +11,30 @@ var zad1= new Function ('a','b')
     
   }
 }
+2)var a,b;
+var zad2 = new Function('a', 'b')
+{ a="Вы ввели:";
+b="traktor";
+console.log(a,b)
+  }
+  3)function checkIt (a='cheak') {
+  if (a === undefined) return "undefined";
+  else if (a ===null) return "null";
+
+}
+console.log(checkIt(undefined));
+ console.log(checkIt(null)); 
+ 4)function addChecked(obj)
+{obj.checked = true}
+5)var k=6;
+var zad= new function ()
+{
+    for(var i=0; i<=k; i++)    
+    {
+        console.log(i);
+    }
+    for(var j=k; j>=0; j--)
+    {
+       console.log(j);
+    }
+}
