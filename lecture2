@@ -1,0 +1,13 @@
+var a=5,b=10 ;
+var zad1= new Function ('a','b')
+{
+  if(a<b)
+  {
+    console.log(false);
+  }
+  else if (a>b)
+  {
+    console.log(true);
+    
+  }
+}
