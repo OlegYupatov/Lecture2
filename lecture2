@@ -17,14 +17,15 @@ var zad2 = new Function('a', 'b')
 b="traktor";
 console.log(a,b)
   }
-  3)function checkIt (a='cheak') {
+  3)function checkIt (a) {
   if (a === undefined) return "undefined";
   else if (a ===null) return "null";
 
 }
 console.log(checkIt(undefined));
  console.log(checkIt(null)); 
- 4)function addChecked(obj)
+ 4)var o = new Object;
+function addChecked(obj)
 {obj.checked = true}
 5)var k=6;
 var zad= new function ()
